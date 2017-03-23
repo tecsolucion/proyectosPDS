@@ -1,2 +1,2 @@
 # proyectosPDS
-Proyectos Procesamiento Digital de Señales
+Proyectos y Practica del Curso de Procesamiento Digital de Señales UACM
