@@ -1,0 +1,30 @@
+main
+	SPI1_Init_Advanced
+	config_timer
+	floor
+		_Float2Longint
+		_Long2Float
+		_Compare_Ge_Fp
+			_Compare_Fp
+		_Sub_FP
+			_AddSub_FP
+		_Compare_Le_Fp
+			_Compare_Fp
+	sin
+		floor
+		eval_poly
+			_Mul_FP
+			_AddSub_FP
+		_Compare_Le_Fp
+		_Mul_FP
+		_Sub_FP
+		_Compare_Ge_Fp
+		_Div_FP
+	SPI1_Write
+		SPI1_Read
+	_Div_FP
+	_Long2Float
+	_Mul_FP
+	_AddSub_FP
+	_Float2Longint
+Timer1Interrupt
